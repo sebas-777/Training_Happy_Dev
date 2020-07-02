@@ -8,12 +8,17 @@
         <title>
             Bienvenidos a Coca Cola
         </title>
+        
+        <link rel="shortcut icon" href="img/img/favicon.png" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-           <a href="index.html"><img src="img/img/logo.png"></a> 
-           
-           <div>
+        <div class="container">
+            <a href="index.html"><img src="img/img/logo.svg"></a> 
             <nav>       
                 <a href="#inicio">INICIO</a>
                 <a href="#nosotros">NOSOTROS</a>
@@ -21,7 +26,7 @@
                 <a href="#galeria">GALERIA</a>
                 <a href="#ubicacion">UBICACION</a>
               </nav>
-           </div>
+         </div>
            
         </header>
         <main>
@@ -35,17 +40,28 @@
         
         </section> 
            <section id="nosotros">
-               <div>
+            <div class="container">
                    <p>
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto autem iure aliquam harum reprehenderit corrupti libero, obcaecati numquam delectus quae inventore eum magni ipsum quibusdam rerum vitae molestias dignissimos?
                    </p>
                </div>
             </section>
            <section id="servicios">
-               <div>
-                   <div>
-                      
-                    <div>
+            <div class="container">
+                   <div class="row">
+                    <div class="columna">
+                        <div>
+                            <div>
+                             <img src="img/img/servicio1.jpg">
+                            </div>
+                            <div>
+                                <h2>Servicio1</h2>
+                                <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, illo ex doloribus saepe voluptates, magni sunt sint illum nisi doloremque, magnam officiis optio quod esse quo voluptas voluptate temporibus. Enim.</P>
+                                <a href="#">VER MAS</a>
+                            </div>
+                        </div>
+                     </div>
+                     <div class="columna">
                         <div>
                             <div>
                              <img src="img/img/servicio2.jpg">
@@ -57,7 +73,7 @@
                             </div>
                         </div>
                      </div>
-                     <div>
+                     <div class="columna">
                         <div>
                             <div>
                              <img src="img/img/servicio3.jpg">
@@ -73,38 +89,39 @@
                </div>
            </section>
            <section id="galeria">
-               <div>
-                   <div>
-                       <div>
+            <div class="container-fluid">
+                   <div class="row">
+                       <div class="columna">
                            <div>
                                <img src="img/img/" alt="">
                                <h3>Foto 1</h3>
                            </div>
                        </div>
-                       <div>
+                       <div class="columna">
                         <div>
                             <img src="img/img/" alt="">
                             <h3>Foto 2</h3>
                         </div>
-                    </div><div>
+                    </div>
+                    <div class="columna">
                         <div>
                             <img src="img/img/" alt="">
                             <h3>Foto 3</h3>
                         </div>
                     </div>
-                    <div>
+                    <div class="columna">
                         <div>
                             <img src="img/img/" alt="">
                             <h3>Foto 4</h3>
                         </div>
                     </div>
-                    <div>
+                    <div class="columna">
                         <div>
                             <img src="img/img/" alt="">
                             <h3>Foto 5</h3>
                         </div>
                     </div>
-                    <div>
+                    <div class="columna">
                         <div>
                             <img src="img/img/" alt="">
                             <h3>Foto 6</h3>
@@ -118,12 +135,13 @@
             ><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=medellin&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
            </section>
            <footer>
-            <div>
-                <div>
+            <div class="container">
+               <div class="row">
+                <div class="columna">
                     <img src="img/img/logo.png">
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint, reiciendis quasi, ut dicta sunt mollitia, perspiciatis doloribus iure iusto veritatis obcaecati odit esse porro neque inventore sed aliquid facilis laboriosam.</p>
                 </div>
-                <div>
+                <div class="columna">
                     <h3>Temas Relacionados</h3>
                     <ul>
                         <li><a href="#"></a>enlace1</li>
@@ -132,7 +150,7 @@
                         <li><a href="#"></a>enlace4</li>
                     </ul>
                 </div>
-                <div>
+                <div class="columna">
                     <h3>Temas Relacionados 2</h3>
                     <ul>
                         <li><a href="#"></a>enlace1</li>
@@ -141,7 +159,7 @@
                         <li><a href="#"></a>enlace4</li>
                     </ul>
                 </div>
-                <div>
+                <div class="columna">
                     <ul>
                         <li><a href="#"></a><i></i></li>
                         <li><a href="#"></a><i></i></li>
@@ -149,9 +167,10 @@
                         
                     </ul>
                 </div>
+            </div>
             </div>   
             <div>
-                <div>
+                <div class="container">
                     &copy;2020 -Todos los derechos reservados
                 </div>
                </div>
