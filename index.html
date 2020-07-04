@@ -11,14 +11,14 @@
         
         <link rel="shortcut icon" href="img/img/favicon.png" type="image/x-icon">
         <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
         <div class="container">
-            <a href="index.html"><img src="img/img/logo.svg"></a> 
+            <a href="index.html"><img src="img/img/logo.svg" class="logo"></a> 
             <nav>       
                 <a href="#inicio">INICIO</a>
                 <a href="#nosotros">NOSOTROS</a>
@@ -26,59 +26,60 @@
                 <a href="#galeria">GALERIA</a>
                 <a href="#ubicacion">UBICACION</a>
               </nav>
+              <a href="#" class="fa-bars"><i class="fa fa-bars" aria-hidden="true"></i></a>
          </div>
            
         </header>
         <main>
            <section id="inicio">
              <img src="img/img/bannerprincipal.jpg"> 
-             <div>
+             <div class="bloque-banner">
                 <h1>Muchos años contigo</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem aliquid nesciunt beatae iusto, cumque repellendus enim et, veritatis eum tenetur incidunt? Aspernatur necessitatibus veritatis obcaecati libero vitae architecto nesciunt modi?</p>
-                <a href="#nosotros">VER MAS</a>
+                <a href="#nosotros" class="boton boton-blanco">VER MAS</a>
              </div>  
         
         </section> 
-           <section id="nosotros">
+           <section id="nosotros" class="section">
             <div class="container">
                    <p>
                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor architecto autem iure aliquam harum reprehenderit corrupti libero, obcaecati numquam delectus quae inventore eum magni ipsum quibusdam rerum vitae molestias dignissimos?
                    </p>
                </div>
             </section>
-           <section id="servicios">
+           <section id="servicios" class="section">
             <div class="container">
                    <div class="row">
-                    <div class="columna">
-                        <div>
-                            <div>
+                    <div class="columna columna-33">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio">
                              <img src="img/img/servicio1.jpg">
                             </div>
-                            <div>
+                            <div class="bloque-contenido-servicio">
                                 <h2>Servicio1</h2>
                                 <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, illo ex doloribus saepe voluptates, magni sunt sint illum nisi doloremque, magnam officiis optio quod esse quo voluptas voluptate temporibus. Enim.</P>
                                 <a href="#">VER MAS</a>
                             </div>
                         </div>
                      </div>
-                     <div class="columna">
-                        <div>
-                            <div>
+                     <div class="columna columna-33">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio">
                              <img src="img/img/servicio2.jpg">
                             </div>
-                            <div>
+                            <div class="bloque-contenido-servicio">
                                 <h2>Servicio2</h2>
                                 <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, illo ex doloribus saepe voluptates, magni sunt sint illum nisi doloremque, magnam officiis optio quod esse quo voluptas voluptate temporibus. Enim.</P>
                                 <a href="#">VER MAS</a>
                             </div>
                         </div>
                      </div>
-                     <div class="columna">
-                        <div>
-                            <div>
+                     <div class="columna columna-33">
+                        <div class="bloque-servicio">
+                            <div class="bloque-img-servicio">
                              <img src="img/img/servicio3.jpg">
                             </div>
-                            <div>
+                            <div class="bloque-contenido-servicio">
                                 <h2>Servicio3</h2>
                                 <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, illo ex doloribus saepe voluptates, magni sunt sint illum nisi doloremque, magnam officiis optio quod esse quo voluptas voluptate temporibus. Enim.</P>
                                 <a href="#">VER MAS</a>
@@ -88,7 +89,7 @@
                    </div>
                </div>
            </section>
-           <section id="galeria">
+           <section id="galeria" class="section">
             <div class="container-fluid">
                    <div class="row">
                        <div class="columna">
@@ -131,10 +132,10 @@
                    </div>
                </div>
            </section>
-           <section id="ubicacion">
+           <section id="ubicacion" class="section">
             ><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=medellin&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> 
            </section>
-           <footer>
+           <footer class="section">
             <div class="container">
                <div class="row">
                 <div class="columna">
