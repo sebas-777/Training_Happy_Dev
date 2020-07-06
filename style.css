@@ -276,9 +276,31 @@ footer .pie {
         width: 100%;
     }
 
+    .enlace-logo{
+        position: relative;
+        z-index: 3;
+    }
+
+    header.open{
+
+        position: fixed;
+        background-color: #fff;
+        width: 100%;
+        top: 0;
+        left: 0;
+
+    }
+
     header .container .fa-bars{
         display: block;
         font-size: 40px;
+        z-index: 3;
+    }
+
+    header .container .fa-bars.open i::before{
+
+        content:"\f00d";
+
     }
 
     .section{
@@ -287,8 +309,33 @@ footer .pie {
         padding-bottom: 30px;
     }
 
-    header .container .nav{
-        display: none;
+    header .container nav{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 80px 15px;
+        transform: translateX(100%);
+        transition: all .5s ease-in-out;
+
+    }
+
+    header .container nav.open{
+
+        transform: translateX(0%);
+    }
+
+    header .container nav a{
+        
+        font-size: 40px;
+        margin-bottom: 15px;
     }
 
     #inicio .bloque-banner{
